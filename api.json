@@ -1,0 +1,9 @@
+{
+    "api": [
+      { "id": 1, "imagem": "https://www.diadepizza.com.br/uploads/pizzas/magnifica-1605572322.png", "nome": "Pizza Peperoni", "preco": "R$ 44.90", "descricao": "Molho de tomate, mussarela, pepperoni, pimentão, azeitonas e orégano.", "promocao": false },
+      { "id": 2, "imagem": "https://sgnh.com.br/wp-content/uploads/2021/07/pizza_frango.png", "nome": "Pizza de Frango", "preco": "R$ 39.90", "descricao": "Molho de tomate, mussarela, frango desfiado, milho e azeitonas preta.", "promocao": true },
+      { "id": 3, "imagem": "https://superprix.vteximg.com.br/arquivos/ids/206737-292-292/_MG_4823.png?v=637804579541000000", "nome": "Pizza Marguerita", "preco": "R$ 36.90", "descricao": "Molho de tomate, mussarela, tomates, manjericão e parmesão.", "promocao": true },
+      { "id": 4, "imagem": "https://zilos.com.br/cdn/shop/products/4queijospronta.png?v=1652117169", "nome": "Pizza de 4 queijos", "preco": "R$ 37.90", "descricao": "Molho de tomate, mussarela, gorgonzola, parmesão, requeijão cremoso e orégano.", "promocao": false },
+      { "id": 5, "imagem": "https://sgnh.com.br/wp-content/uploads/2021/07/pizza_calabresa.png", "nome": "Pizza de Calabresa", "preco": "R$ 37.90", "descricao": "Molho de tomate, mussarela, calabresa, cebola e azeitonas.", "promocao": true }
+    ]
+  }

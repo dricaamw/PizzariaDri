@@ -1,4 +1,4 @@
-import Paths from "./routes/Paths";
+import Paths from "./routes";
 
 
 const App = () => {
