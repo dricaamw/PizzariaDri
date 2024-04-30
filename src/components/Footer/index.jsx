@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const FooterContainer = styled.footer`
@@ -36,26 +37,27 @@ width: 250px;
 height: 54px;
 margin-bottom: 20px;
 }
-& button{
-width: 40px;
-height: 40px;
+& a{
+width: 50px;
+height: 50px;
 border-radius: 100%;
 margin-right: 20px;
 font-size: 1.5em;
-padding-top: 5px;
-color: #ffffffda;
+padding: 8px;
+
 cursor: pointer;
+color: #ffffffda;
 }
-& button.Fa{
+& a.Fa{
 background: #0078F6;
 }
-& button.Inst{
+& a.Inst{
     background: linear-gradient(180deg, #0E41DD, #9632C7, #E22CAB, #FF4C31, #FFA816, #FFC74B 100%);
 }
-& button.X{
+& a.X{
     background: #009CF3;
 }
-& button.You{
+& a.You{
     background: #FA1A48;
 }
 & div h3{
@@ -76,9 +78,6 @@ line-height: 19.36px;
 text-align: left;
 width: 200px;
 }
-
-
-
 `;
 
 const Footer = () => {
@@ -89,10 +88,11 @@ const Footer = () => {
                 <p>Horários: <br />
                     segunda a sexta: 18:00 às 23:30
                     sábado e domingo: 11:30 às 00:30</p>
-                <button className="Fa"><FaFacebook /></button>
-                <button className="Inst"><FaInstagram /></button>
-                <button className="X"><FaSquareXTwitter /></button>
-                <button className="You"><FaYoutube /></button>
+                <a className="Fa" href="#"><FaFacebook /></a>
+                <a className="Inst" href="#"><FaInstagram /></a>
+                <a className="X" href="#"><FaSquareXTwitter /></a>
+                <a className="You" href="#"><FaYoutube /></a>
+                
             </div>
             <div id="map">MAPA</div>
             <div className="contato">
